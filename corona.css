@@ -1,0 +1,104 @@
+.header{
+        border: 2px solid black;
+        text-align: center;
+        background-color: powderblue;
+}
+.container{
+        
+        margin-top: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 400px; 
+       
+       
+}
+#country-data{
+        
+        margin-top: 25px;
+}
+#btn{
+        text-align: center;
+        cursor: pointer;
+        width: 5%;
+        border: none;
+        border-radius: 10px;
+        background-color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        justify-content: space-between;
+}
+#btn:hover {
+        background-color: #3e8e41;
+        color: white;
+      }
+#input{
+        width: 30%;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 2px solid black;
+        margin-top: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        justify-content: space-between;
+}
+#Country{
+        text-align: center;
+}
+#New-Confirmed,#Global-New-Confirmed{
+        float: left;
+        margin-top: 25px;
+        width: 100%;
+        text-align: center;
+        justify-content: space-around;
+        background-color: lightyellow;
+        border-radius: 15px;    
+}
+#New-Deaths,#Global-New-Deaths{
+        border-radius: 15px;
+        float: left;
+        width: 100%;
+        margin-top: 25px;
+        text-align: center;
+        background-color: red;
+}
+#New-Recovered,#Global-New-Recovered{
+        float: left;
+        width: 100%;
+        border-radius: 15px;
+        margin-top: 25px;
+        text-align: center;
+        background-color: lightgreen;
+}
+#Total-Confirmed,#Global-Total-Confirmed{
+        float: left;
+        width: 100%;
+        border-radius: 15px;
+        margin-top: 25px;
+        text-align: center;
+        background-color:lightyellow;
+}
+#Total-Deaths,#Global-Total-Deaths{
+        float: left;
+        width: 100%;
+        border-radius: 15px;
+        margin-top: 25px;
+        text-align: center;
+        background-color:red;
+}
+#Total-Recovered,#Global-Total-Recovered{
+        border-radius: 15px;
+        width: 100%;
+        float: left;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        text-align: center;
+        background-color:lightgreen;
+}
+.Global-container{
+       
+        text-align: center;
+}
+#Global-Cases{
+        margin-top: 15px;
+}

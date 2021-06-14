@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Corona Tracker</title>
+        <link rel="stylesheet" href="corona.css"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="img">
+        <div class="header"><h1>Covid-19 Tracker</h1></div>
+        <div class="container"><hr>
+        <input type="text" id="input" placeholder="Enter country name..." required>
+        <button id="btn" onclick="getResult()"><i class="fa fa-search"></i></button>
+        <div id="country-data">
+                <hr><div id="Country"></div><hr>
+                <div id="New-Confirmed"></div>
+                <div id="Total-Confirmed"></div>
+                <div id="New-Deaths" ></div>
+                <div id="Total-Deaths"></div>
+                <div id="New-Recovered"></div>
+                <div id="Total-Recovered"></div>
+        </div>
+        </div>
+        <div class="Global-container">
+                <hr><div id="Global-Cases"><h1>Global Covid-19 Cases</h1></div><hr>
+                <div id="Global-New-Confirmed"></div><hr>
+                <div id="Global-Total-Confirmed"></div><hr>
+                <div id="Global-New-Deaths" ></div><hr>
+                <div id="Global-Total-Deaths"></div><hr>
+                <div id="Global-New-Recovered"></div><hr>
+                <div id="Global-Total-Recovered"></div>
+        </div><hr>
+        <script src="corona.js"></script>
+</body>
+</html>
