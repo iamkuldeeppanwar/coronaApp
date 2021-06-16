@@ -44,7 +44,7 @@ function getResult() {
                 .then(weather => {
                         return weather.json();
                 }).then(data => {
-                        for (var i = 0; i < 191; ++i) {
+                        for (var i = 0; i < data.Countries.length; i++) {
                                 var p = data.Countries[i].Country;
                                 p = p.toLowerCase();
                                 if (p == str) {
